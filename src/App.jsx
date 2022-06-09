@@ -5,6 +5,8 @@ import Footer from "./Components/Footer/Footer";
 import Header from "./Components/Header/Header";
 import Navbar from "./Components/Navbar/Navbar";
 import Portfolio from "./Components/Portfolio/Portfolio";
+import Reviews from "./Components/Reviews/Reviews";
+import Services from "./Components/Services/Services";
 
 function App() {
   return (
@@ -13,7 +15,9 @@ function App() {
       <Navbar />
       <About />
       <Experience />
+      <Services />
       <Portfolio />
+      <Reviews />
       <Contact />
       <Footer />
     </>
