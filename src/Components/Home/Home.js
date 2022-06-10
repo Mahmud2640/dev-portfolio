@@ -6,7 +6,6 @@ import Header from "../Header/Header";
 import Particle from "../Particles/Particle";
 import Portfolio from "../Portfolio/Portfolio";
 import Reviews from "../Reviews/Reviews";
-import Services from "../Services/Services";
 
 const Home = () => {
   return (
@@ -15,7 +14,6 @@ const Home = () => {
       <Header />
       <About />
       <Experience />
-      <Services />
       <Portfolio />
       <Reviews />
       <Contact />

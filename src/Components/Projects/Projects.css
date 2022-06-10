@@ -25,6 +25,10 @@
   font-weight: bold;
   color: rgb(233, 30, 76);
 }
+.link a{
+  text-align: center;
+  margin: 20px;
+}
 
 @media screen and (max-width: 600px) {
   .full-div {

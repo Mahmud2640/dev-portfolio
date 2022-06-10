@@ -16,7 +16,7 @@ const Projects = () => {
 
   return (
     <div className="full-section">
-      <h2>Product Detail Information</h2>
+      <h2>Project Detail Information</h2>
       <div className="full-div">
         <div className="image">
           <img src={detail.image} alt="" />
@@ -24,6 +24,20 @@ const Projects = () => {
         <div className="info">
           <h1>{detail.title}</h1>
           <p>{detail.description}</p>
+          <div className="link">
+            <a href={detail.demo} target="blank" className="btn">
+              {" "}
+              Live Site
+            </a>
+            <a href={detail.client} target="blank" className="btn">
+              {" "}
+              Client Site
+            </a>
+            <a href={detail.server} target="blank" className="btn">
+              {" "}
+              Server Site
+            </a>
+          </div>
         </div>
       </div>
     </div>

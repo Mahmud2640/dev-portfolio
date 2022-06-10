@@ -18,7 +18,7 @@ const Portfolio = () => {
       <h5>My Recent Work</h5>
       <h2>Portfolio</h2>
       <div className="container portfolio_container">
-        {projects.map(({ id, image, title, github, demo }) => {
+        {projects.map(({ id, image, title }) => {
           return (
             <article key={id} className="portfolio_item">
               <div className="portfolio_item-image">
@@ -30,7 +30,7 @@ const Portfolio = () => {
                   onClick={() => navigateToUpdate(id)}
                   className="btn btn-primary"
                 >
-                  Live Demo
+                  Details Info
                 </button>
               </div>
             </article>
