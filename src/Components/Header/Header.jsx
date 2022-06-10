@@ -7,7 +7,7 @@ import Typed from "react-typed";
 
 const Header = () => {
   return (
-    <header data-aos="fade-up" id="top">
+    <header id="top">
       <div className="container header_container">
         <h5>Hello I'm</h5>
         <h1>
