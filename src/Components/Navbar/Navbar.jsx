@@ -2,49 +2,46 @@ import React, { useState } from "react";
 import "./Navbar.css";
 import { AiOutlineHome } from "react-icons/ai";
 import { AiOutlineUser } from "react-icons/ai";
-import { BiBook } from "react-icons/bi";
 import { RiServiceLine } from "react-icons/ri";
-import { BiMessageSquareDetail } from "react-icons/bi";
+import { ImBlog } from "react-icons/im";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [activeNav, setActiveNav] = useState("#");
   return (
     <nav>
-      <a
-        href="#top"
-        onClick={() => setActiveNav("#")}
-        className={activeNav === "#" ? "active" : ""}
+      <Link
+        as={Link}
+        to="/home"
+        onClick={() => setActiveNav("home")}
+        className={activeNav === "home" ? "active" : ""}
       >
         <AiOutlineHome />
-      </a>
-      <a
-        href="#about"
-        onClick={() => setActiveNav("#about")}
-        className={activeNav === "#about" ? "active" : ""}
+      </Link>
+      <Link
+        as={Link}
+        to="/blog"
+        onClick={() => setActiveNav("blog")}
+        className={activeNav === "blog" ? "active" : ""}
       >
-        <AiOutlineUser />
-      </a>
-      <a
-        href="#experience"
-        onClick={() => setActiveNav("#experience")}
-        className={activeNav === "#experience" ? "active" : ""}
-      >
-        <BiBook />
-      </a>
-      <a
-        href="#service"
-        onClick={() => setActiveNav("#service")}
-        className={activeNav === "#service" ? "active" : ""}
+        <ImBlog />
+      </Link>
+      <Link
+        as={Link}
+        to="/add-review"
+        onClick={() => setActiveNav("add-review")}
+        className={activeNav === "add-review" ? "active" : ""}
       >
         <RiServiceLine />
-      </a>
-      <a
-        href="#contact"
-        onClick={() => setActiveNav("#contact")}
-        className={activeNav === "#contact" ? "active" : ""}
+      </Link>
+      <Link
+        as={Link}
+        to="/login"
+        onClick={() => setActiveNav("login")}
+        className={activeNav === "login" ? "active" : ""}
       >
-        <BiMessageSquareDetail />
-      </a>
+        <AiOutlineUser />
+      </Link>
     </nav>
   );
 };

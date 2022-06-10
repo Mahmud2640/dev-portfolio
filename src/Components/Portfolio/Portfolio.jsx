@@ -1,7 +1,12 @@
 import React, { useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
 import "./Portfolio.css";
 
 const Portfolio = () => {
+  const navigate = useNavigate();
+  const navigateToUpdate = (id) => {
+    navigate(`/project/${id}`);
+  };
   const [projects, setProjects] = useState([]);
   useEffect(() => {
     fetch("projects.json")
@@ -21,22 +26,12 @@ const Portfolio = () => {
               </div>
               <h3>{title}</h3>
               <div className="portfolio_item-cta">
-                <a
-                  href={github}
-                  className="btn"
-                  rel="noreferrer"
-                  target="_blank"
-                >
-                  Github
-                </a>
-                <a
-                  href={demo}
+                <button
+                  onClick={() => navigateToUpdate(id)}
                   className="btn btn-primary"
-                  rel="noreferrer"
-                  target="_blank"
                 >
                   Live Demo
-                </a>
+                </button>
               </div>
             </article>
           );

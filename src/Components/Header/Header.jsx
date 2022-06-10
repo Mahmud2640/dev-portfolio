@@ -2,13 +2,13 @@ import React from "react";
 import CTA from "./CTA";
 import Social from "./Social";
 import "./Header.css";
-import me from "../../assets/me.png";
+// import me from "../../assets/me.png";
 import Typed from "react-typed";
 
 const Header = () => {
   return (
     <header id="top">
-      <div className="container header_container">
+      <div id='text' className="container header_container">
         <h5>Hello I'm</h5>
         <h1>
           <Typed
@@ -33,11 +33,12 @@ const Header = () => {
           />
         </h5>
         <CTA />
+
         <Social />
 
-        <div className="me">
+        {/* <div className="me">
           <img src={me} alt="me" />
-        </div>
+        </div> */}
         <a href="#contact" className="scroll_down">
           Scroll Down
         </a>
