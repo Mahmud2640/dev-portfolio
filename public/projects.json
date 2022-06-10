@@ -2,10 +2,11 @@
   {
     "id": 1,
     "image": "https://i.ibb.co/6XRLNwK/portfolio1.jpg",
-    "title": "Portfolio",
+    "title": "Computer Accessories",
     "description": "nierioerhviervirevirbvierviervire",
-    "github": "www.github.com",
-    "demo": "www.demo.com"
+    "git-client": "www.github.com",
+    "git-server": "www.github.com",
+    "demo": "https://h-power-8ab5a.web.app"
   },
   {
     "id": 2,

@@ -30,16 +30,17 @@ const About = () => {
             <article className="about_card">
               <VscFolderLibrary className="about_icon" />
               <h5>Projects</h5>
-              <small>40+ Completed</small>
+              <small>20+ Completed</small>
             </article>
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab rem
-            debitis dicta unde sit. Adipisci quos, vero totam quae ea odio
-            repellendus delectus est quibusdam iste ipsum assumenda ratione
-            asperiores.
+            Hello !! My name is Abdullah Al Mahmud. I want to gain confidence
+            and fame using my potential in this position, and express my
+            innovative creative skills for self and company growth. I am a
+            hardworking and quick learner person. I believe hard work is the
+            only way to success. Love to learn new technology and try to improve
+            myself.
           </p>
-
           <a href="https://m.me/mahmud2640" className="btn btn-primary">
             Let's Talk
           </a>

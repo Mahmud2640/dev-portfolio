@@ -15,36 +15,36 @@ const Experience = () => {
             <article className="experience_details">
               <BsPatchCheckFill className="experience_details-icon" />
               <div>
-                <h4>HTML</h4>
-                <small className="text-light">Experienced</small>
+                <h4>HTML5, CSS3</h4>
+                <small className="text-light">Expertise</small>
               </div>
             </article>
             <article className="experience_details">
               <BsPatchCheckFill className="experience_details-icon" />
               <div>
-                <h4>HTML</h4>
-                <small className="text-light">Experienced</small>
+                <h4>JavaScript</h4>
+                <small className="text-light">Expertise</small>
               </div>
             </article>
             <article className="experience_details">
               <BsPatchCheckFill className="experience_details-icon" />
               <div>
-                <h4>HTML</h4>
-                <small className="text-light">Experienced</small>
+                <h4>React</h4>
+                <small className="text-light">Expertise</small>
               </div>
             </article>
             <article className="experience_details">
               <BsPatchCheckFill className="experience_details-icon" />
               <div>
-                <h4>HTML</h4>
-                <small className="text-light">Experienced</small>
+                <h4>Tailwind CSS</h4>
+                <small className="text-light">Expertise</small>
               </div>
             </article>
             <article className="experience_details">
               <BsPatchCheckFill className="experience_details-icon" />
               <div>
-                <h4>HTML</h4>
-                <small className="text-light">Experienced</small>
+                <h4>Bootstrap</h4>
+                <small className="text-light">Expertise</small>
               </div>
             </article>
           </div>
@@ -56,36 +56,36 @@ const Experience = () => {
             <article className="experience_details">
               <BsPatchCheckFill className="experience_details-icon" />
               <div>
-                <h4>HTML</h4>
-                <small className="text-light">Experienced</small>
+                <h4>Node.Js</h4>
+                <small className="text-light">Familiar</small>
               </div>
             </article>
             <article className="experience_details">
               <BsPatchCheckFill className="experience_details-icon" />
               <div>
-                <h4>HTML</h4>
-                <small className="text-light">Experienced</small>
+                <h4>Express.Js</h4>
+                <small className="text-light">Comportable</small>
               </div>
             </article>
             <article className="experience_details">
               <BsPatchCheckFill className="experience_details-icon" />
               <div>
-                <h4>HTML</h4>
-                <small className="text-light">Experienced</small>
+                <h4>MongoDB</h4>
+                <small className="text-light">Comportable</small>
               </div>
             </article>
             <article className="experience_details">
               <BsPatchCheckFill className="experience_details-icon" />
               <div>
-                <h4>HTML</h4>
-                <small className="text-light">Experienced</small>
+                <h4>Rest API</h4>
+                <small className="text-light">Comportable</small>
               </div>
             </article>
             <article className="experience_details">
               <BsPatchCheckFill className="experience_details-icon" />
               <div>
-                <h4>HTML</h4>
-                <small className="text-light">Experienced</small>
+                <h4>Payment Getway</h4>
+                <small className="text-light">Familiar</small>
               </div>
             </article>
           </div>
