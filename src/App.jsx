@@ -1,3 +1,5 @@
+import AOS from "aos";
+import "aos/dist/aos.css";
 import About from "./Components/About/About";
 import Contact from "./Components/Contact/Contact";
 import Experience from "./Components/Experience/Experience";
@@ -10,6 +12,10 @@ import Reviews from "./Components/Reviews/Reviews";
 import Services from "./Components/Services/Services";
 
 function App() {
+  AOS.init({
+    delay: 100, // values from 0 to 3000, with step 50ms
+    duration: 500,
+  });
   return (
     <div>
       <Particle />
