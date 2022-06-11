@@ -8,7 +8,7 @@ import Typed from "react-typed";
 const Header = () => {
   return (
     <header id="top">
-      <div id='text' className="container header_container">
+      <div id="text" className="container header_container">
         <h5>Hello I'm</h5>
         <h1>
           <Typed
@@ -33,9 +33,7 @@ const Header = () => {
           />
         </h5>
         <CTA />
-
         <Social />
-
         {/* <div className="me">
           <img src={me} alt="me" />
         </div> */}

@@ -10,7 +10,7 @@
   },
   {
     "id": 2,
-    "image": "https://i.ibb.co/HCwZXG8/Singer-Bangladesh.png",
+    "image": "https://i.ibb.co/D1Sr623/Singer-Bangladesh-min.png",
     "title": "Electronic warehouse",
     "description": "This website is a warehouse inventory management website. # Features -- 1. This application usually helps deller and wholesale retailer. 2.. On this website, you can add, restock and delete products.  3.. Single Page web application, Google and Email Authentication (Sign In | Sign Up)  4.. Dealers can update and manage their stokes. 5.. Technology: React, React Routing, Bootstrap, Firebase Authentication, Express, MongoDB, Heroku.",
     "client": "https://github.com/Mahmud2640/assainment-11-client",
@@ -19,7 +19,7 @@
   },
   {
     "id": 3,
-    "image": "https://i.ibb.co/Kw0ryRb/Doctors-Talk.png",
+    "image": "https://i.ibb.co/WgxWq6w/Doctors-Talk-min.png",
     "title": "Doctors- Talk",
     "description": "This website is an independent service provider website. # Features -- 1..This application for a person who provide many services for online. 2.. On this website user booking service when he/she log in.  3.. Implement Google and Email Authentication and also user create account.  4.. If user forget her password then he/she can reset her password.  5.. Technology: React, React Routing, Bootstrap, Firebase Authentication, Firebase Hosting",
     "client": "https://github.com/Mahmud2640/assainment-10",
@@ -28,7 +28,7 @@
   },
   {
     "id": 4,
-    "image": "https://i.ibb.co/wg80j2v/FNF.png",
+    "image": "https://i.ibb.co/Q7By6Br/FNF-min.png",
     "title": "FnF Trading Contacting and Service",
     "description": "This website is an contacting service provider. # Features -- 1..This application for a person who provide many services for online. 2.. On this website user booking service when he/she log in. Technology: React, React Routing, Bootstrap",
     "client": "https://github.com/Mahmud2640/fnfqa-react-project",
@@ -37,7 +37,7 @@
   },
   {
     "id": 5,
-    "image": "https://i.ibb.co/DY9YKqb/Singer-BD-Plus.png",
+    "image": "https://i.ibb.co/2sWSmdh/Singer-BD-Plus-min.png",
     "title": "Choose Your best product",
     "description": "This website is an e-commarce website. # Features -- 1..This application for a person who provide many services for online. 2.. On this website user booking service when he/she log in. Technology: React, React Routing, Bootstrap",
     "client": "https://github.com/Mahmud2640/assainment-8-resubmit",
@@ -46,7 +46,7 @@
   },
   {
     "id": 6,
-    "image": "https://i.ibb.co/tzcQmTB/Hammadi-Travel.png",
+    "image": "https://i.ibb.co/H7cMrx8/Hammadi-Travel-min.png",
     "title": "Hammadi Travel",
     "description": "This website is an Travel Agency website. # Features -- 1..This application for a person who provide many services for online. 2.. On this website user booking service when he/she log in. Technology: html, css, js and Bootstrap",
     "client": "https://github.com/Mahmud2640/Hammadi-Travels",
