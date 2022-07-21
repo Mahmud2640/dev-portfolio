@@ -10,14 +10,7 @@ const Header = () => {
     <header id="top">
       <div id="text" className="container header_container">
         <h5>Hello I'm</h5>
-        <h1>
-          <Typed
-            strings={["Abdullah Al Mahmud"]}
-            loop
-            typeSpeed={50}
-            backSpeed={40}
-          />
-        </h1>
+        <h1>Abdullah Al Mahmud</h1>
         <h5 className="text-light">
           <Typed
             strings={[
